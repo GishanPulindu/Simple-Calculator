@@ -1,17 +1,22 @@
-# Simple Calculator V1 (CLI)
+# Simple Calculator V2 (GUI & CLI)
 
+New gi based calculator built with Tkinter.
 A basic command-line calculator built with Python.
-Supports addition, subtraction, multiplication, division, exponentiation, and square root.
+Supports addition, subtraction, multiplication, division, exponentiation, and square root(Only CLI still).
 
 ## Features
+- Graphical User Interface
 - +  Addition
 - -  Subtraction
 - *  Multiplication
 - /  Division
 - ** Exponentiation
 - sqrt Square root
-- Input validation
+- Input validation (CLI)
 - Division by zero handling
+
+## IMPORTANT NOTE!!!
+   The GUI users eval() to do calculations refrain from inputting unsafe calculations!
 
 ## How to Run
 
@@ -25,4 +30,7 @@ Supports addition, subtraction, multiplication, division, exponentiation, and sq
 
    python Simple Calculator.py
 
-5. Follow the on-screen menu to perform calculations.
+5. Use the graphical user interface to do calculations or switch to CLI doing the following:
+   if __name__ == "__main__":
+    # gui_cal()
+    cli_cal()
