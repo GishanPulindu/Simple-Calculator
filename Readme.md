@@ -32,5 +32,10 @@ Supports addition, subtraction, multiplication, division, exponentiation, and sq
 
 5. Use the graphical user interface to do calculations or switch to CLI doing the following:
    if __name__ == "__main__":
-    # gui_cal()
+    comment(#) gui_cal()
     cli_cal()
+
+## Upcoming Features
+   - Improve safety of calculations
+   - Improve GUI
+   - Storing past calculations
